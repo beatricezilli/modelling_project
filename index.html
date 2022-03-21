@@ -1,0 +1,63 @@
+<html>
+<!-- By default uses Roboto font. Be sure to load this or change the font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+<!-- Container element of Mirador whose id should be passed to the instantiating call as "id" -->
+<header><title>esercitazione_modelling</title></header>
+<body>
+<div id="my-mirador"/> 
+</body>
+<script src="https://unpkg.com/mirador@beta/dist/mirador.min.js"></script>
+<script type="text/javascript">
+
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+   windows: [{
+  "manifestId": "manifest2.json"
+    }]
+});
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<html>
+  <head>
+    <title>Bologna 2020 - openseadragon example 1</title>
+  </head>
+  <body>
+    <div id="my-mirador"></div>
+    <script src="https://unpkg.com/mirador@beta/dist/mirador.min.js"></script>
+
+<div id="my-mirador"/>
+
+<script type="text/javascript">
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+  "windows": [
+    {      
+      "canvasIndex": 3,
+      "thumbnailNavigationPosition": 'far-bottom',
+	  "loadedManifest": "http://webvremediani.it/manifest-BODL2.json"
+    }
+  ]
+});
+</script>
+  </body>
+</html>
+-->
